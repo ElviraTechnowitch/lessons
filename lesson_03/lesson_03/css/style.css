@@ -1,0 +1,45 @@
+@import url("reset.css");
+
+*{
+	color: purple;
+}
+
+a{
+	color: orange;
+}
+
+#title > h1{
+	color: blue;
+}
+
+#description > p{
+	color: goldenrod;
+}
+
+h1,h2,h3{
+	color: brown;
+}
+
+[href*="#culture"], .culture-text p{
+	color: green;
+}
+
+[href*="#overal_info"], .overal-text li{
+	color: magenta
+}
+
+[href*="#history"], .history-text p{
+	color: skyblue
+}
+
+[href*="#food"], .food-text p{
+	color: limegreen;
+}
+
+[href*="#travel"], .travel-text p{
+	color: cornflowerblue;
+}
+
+[href*="#source"]{
+	color: red;
+}
